@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "target": "ES2023",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "types": ["jest", "node", "@testing-library/jest-dom"],
+    "types": ["jest", "node"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
