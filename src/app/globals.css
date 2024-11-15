@@ -127,3 +127,13 @@ body {
     border-radius: 5px;
   }
 }
+
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.pop-animation {
+  animation: pop 0.3s ease;
+}
